@@ -19,8 +19,8 @@ Mời bạn nhập lựa chọn từ (1-5): """)
             car_id = 1
             type = input("Nhập vào loại xe: ").strip()
             if type.isspace() or type == "":
-                print("Loại xe không được để trống").strip()
-            owner = input("Nhập vào chủ xe: ")
+                print("Loại xe không được để trống")
+            owner = input("Nhập vào chủ xe: ").strip()
             if owner.isspace() or owner == "":
                 print("Chủ xe không được để trống")
             parking_lot.append({
